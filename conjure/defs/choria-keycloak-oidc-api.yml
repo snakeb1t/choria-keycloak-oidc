@@ -1,0 +1,27 @@
+types:
+  definitions:
+    default-package: com.palantir.choriakeycloakoidc.api
+services:
+  Authorize:
+    name: Authorize Service
+    package: com.palantir.choriakeycloakoidc.api
+    base-path: /authorize
+    endpoints:
+      get:
+        http: GET /
+        auth: none
+        args:
+          state:
+            param-type: query
+            type: string
+          sessionstate:
+            param-id: session_state
+            param-type: query
+            type: string
+          idtoken:
+            param-id: id_token
+            param-type: query
+            type: string
+        returns: string
+        docs: >
+          Takes a Keycloak OIDC JWT, returns a Choria JWT

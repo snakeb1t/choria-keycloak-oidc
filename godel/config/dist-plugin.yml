@@ -1,0 +1,46 @@
+products:
+  choria-keycloak-oidc:
+    build:
+      main-pkg: .
+      version-var: github.palantir.build/ptittle/choria-keycloak-oidc/version.version
+      environment:
+        CGO_ENABLED: "0"
+      os-archs:
+      - os: linux
+        arch: amd64
+      - os: darwin
+        arch: amd64
+    dist:
+      disters:
+        sls:
+          type: sls
+          config:
+            dist-type: sls-and-config
+            service-args: server --install-config var/conf/install.yml --runtime-config var/conf/runtime.yml
+            manifest-extensions:
+              product-dependencies: []
+            reloadable: true
+          input-dir:
+            path: dist
+            exclude:
+              names:
+              - .gitkeep
+    publish: {}
+    docker:
+      docker-builders:
+        docker-image:
+          type: sls
+          config:
+            group-id: com.palantir.choria-keycloak-oidc
+            manifest-extensions:
+              product-dependencies: []
+          context-dir: ./docker
+          input-products-dir: inputs
+          input-dists:
+          - choria-keycloak-oidc.sls
+          tag-templates:
+            snapshot: '{{Repository}}choria-keycloak-oidc/choria-keycloak-oidc:snapshot'
+            release: '{{Repository}}choria-keycloak-oidc/choria-keycloak-oidc:{{Version}}'
+product-defaults:
+  publish:
+    group-id: com.palantir.choria-keycloak-oidc

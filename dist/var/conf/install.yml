@@ -1,0 +1,5 @@
+server:
+  address: ""
+  port: 8080
+  management-port: 8081
+  context-path: /choria-keycloak-oidc

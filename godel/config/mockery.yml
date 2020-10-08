@@ -1,0 +1,9 @@
+mockery:
+- name: ChoriaKeycloakOidcEchoServiceClient
+  output: ./mocks
+  dir: ./conjure/choriakeycloakoidc/api
+  case: underscore
+- name: ChoriaKeycloakOidcDictServiceClient
+  output: ./mocks
+  dir: ./conjure/choriakeycloakoidc/api
+  case: underscore

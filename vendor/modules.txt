@@ -1,0 +1,184 @@
+# github.com/davecgh/go-spew v1.1.1
+github.com/davecgh/go-spew/spew
+# github.com/dgrijalva/jwt-go v3.2.0+incompatible
+github.com/dgrijalva/jwt-go
+# github.com/fsnotify/fsnotify v1.4.9
+github.com/fsnotify/fsnotify
+# github.com/google/uuid v1.1.2
+github.com/google/uuid
+# github.com/hashicorp/hcl v1.0.0
+github.com/hashicorp/hcl
+github.com/hashicorp/hcl/hcl/ast
+github.com/hashicorp/hcl/hcl/parser
+github.com/hashicorp/hcl/hcl/printer
+github.com/hashicorp/hcl/hcl/scanner
+github.com/hashicorp/hcl/hcl/strconv
+github.com/hashicorp/hcl/hcl/token
+github.com/hashicorp/hcl/json/parser
+github.com/hashicorp/hcl/json/scanner
+github.com/hashicorp/hcl/json/token
+# github.com/inconshreveable/mousetrap v1.0.0
+github.com/inconshreveable/mousetrap
+# github.com/julienschmidt/httprouter v1.3.0
+github.com/julienschmidt/httprouter
+# github.com/magiconair/properties v1.8.1
+github.com/magiconair/properties
+# github.com/mitchellh/mapstructure v1.3.0
+github.com/mitchellh/mapstructure
+# github.com/nmiyake/pkg v0.0.1
+github.com/nmiyake/pkg
+# github.com/nmiyake/pkg/dirs v1.0.1
+github.com/nmiyake/pkg/dirs
+# github.com/nmiyake/pkg/errorstringer v1.0.1
+github.com/nmiyake/pkg/errorstringer
+# github.com/openzipkin/zipkin-go v0.2.2
+github.com/openzipkin/zipkin-go
+github.com/openzipkin/zipkin-go/idgenerator
+github.com/openzipkin/zipkin-go/model
+github.com/openzipkin/zipkin-go/propagation
+github.com/openzipkin/zipkin-go/reporter
+# github.com/palantir/conjure-go-runtime v1.0.0
+github.com/palantir/conjure-go-runtime/conjure-go-client/httpclient
+github.com/palantir/conjure-go-runtime/conjure-go-client/httpclient/internal
+github.com/palantir/conjure-go-runtime/conjure-go-contract/codecs
+# github.com/palantir/conjure-go-runtime/v2 v2.2.0
+github.com/palantir/conjure-go-runtime/v2/conjure-go-contract/codecs
+github.com/palantir/conjure-go-runtime/v2/conjure-go-contract/errors
+github.com/palantir/conjure-go-runtime/v2/conjure-go-server/httpserver
+# github.com/palantir/go-encrypted-config-value v1.1.0
+github.com/palantir/go-encrypted-config-value/encryptedconfigvalue
+github.com/palantir/go-encrypted-config-value/encryption
+# github.com/palantir/go-metrics v1.1.0
+github.com/palantir/go-metrics
+# github.com/palantir/pkg v1.0.1
+github.com/palantir/pkg
+# github.com/palantir/pkg/bytesbuffers v1.0.0
+github.com/palantir/pkg/bytesbuffers
+# github.com/palantir/pkg/cobracli v1.0.1
+github.com/palantir/pkg/cobracli
+# github.com/palantir/pkg/datetime v1.0.1
+github.com/palantir/pkg/datetime
+# github.com/palantir/pkg/httpserver v1.0.1
+github.com/palantir/pkg/httpserver
+# github.com/palantir/pkg/metrics v1.0.1
+github.com/palantir/pkg/metrics
+# github.com/palantir/pkg/retry v1.0.0
+github.com/palantir/pkg/retry
+# github.com/palantir/pkg/safejson v1.0.1
+github.com/palantir/pkg/safejson
+# github.com/palantir/pkg/safelong v1.0.1
+github.com/palantir/pkg/safelong
+# github.com/palantir/pkg/safeyaml v1.0.1
+github.com/palantir/pkg/safeyaml
+# github.com/palantir/pkg/signals v1.0.1
+github.com/palantir/pkg/signals
+# github.com/palantir/pkg/tlsconfig v1.0.1
+github.com/palantir/pkg/tlsconfig
+# github.com/palantir/pkg/transform v1.0.0
+github.com/palantir/pkg/transform
+# github.com/palantir/pkg/uuid v1.0.1
+github.com/palantir/pkg/uuid
+github.com/palantir/pkg/uuid/internal/uuid
+# github.com/palantir/witchcraft-go-error v1.3.0
+github.com/palantir/witchcraft-go-error
+github.com/palantir/witchcraft-go-error/internal/errors
+# github.com/palantir/witchcraft-go-logging v1.7.0
+github.com/palantir/witchcraft-go-logging/conjure/witchcraft/api/logging
+github.com/palantir/witchcraft-go-logging/internal/gopath
+github.com/palantir/witchcraft-go-logging/wlog
+github.com/palantir/witchcraft-go-logging/wlog-zap
+github.com/palantir/witchcraft-go-logging/wlog-zap/internal
+github.com/palantir/witchcraft-go-logging/wlog-zap/internal/marshalers
+github.com/palantir/witchcraft-go-logging/wlog/auditlog/audit2log
+github.com/palantir/witchcraft-go-logging/wlog/diaglog/diag1log
+github.com/palantir/witchcraft-go-logging/wlog/evtlog/evt2log
+github.com/palantir/witchcraft-go-logging/wlog/extractor
+github.com/palantir/witchcraft-go-logging/wlog/internal
+github.com/palantir/witchcraft-go-logging/wlog/metriclog/metric1log
+github.com/palantir/witchcraft-go-logging/wlog/reqlog/req2log
+github.com/palantir/witchcraft-go-logging/wlog/svclog/svc1log
+github.com/palantir/witchcraft-go-logging/wlog/trclog/trc1log
+github.com/palantir/witchcraft-go-logging/wlog/wapp
+# github.com/palantir/witchcraft-go-params v1.1.0
+github.com/palantir/witchcraft-go-params
+# github.com/palantir/witchcraft-go-server v1.27.0
+github.com/palantir/witchcraft-go-server/config
+github.com/palantir/witchcraft-go-server/conjure/witchcraft/api/health
+github.com/palantir/witchcraft-go-server/rest
+github.com/palantir/witchcraft-go-server/status
+github.com/palantir/witchcraft-go-server/status/health
+github.com/palantir/witchcraft-go-server/status/health/refreshable
+github.com/palantir/witchcraft-go-server/status/routes
+github.com/palantir/witchcraft-go-server/witchcraft
+github.com/palantir/witchcraft-go-server/witchcraft/internal/metricloggers
+github.com/palantir/witchcraft-go-server/witchcraft/internal/middleware
+github.com/palantir/witchcraft-go-server/witchcraft/internal/negroni
+github.com/palantir/witchcraft-go-server/witchcraft/refreshable
+github.com/palantir/witchcraft-go-server/witchcraft/wresource
+github.com/palantir/witchcraft-go-server/wrouter
+github.com/palantir/witchcraft-go-server/wrouter/whttprouter
+# github.com/palantir/witchcraft-go-tracing v1.2.0
+github.com/palantir/witchcraft-go-tracing/wtracing
+github.com/palantir/witchcraft-go-tracing/wtracing/propagation/b3
+github.com/palantir/witchcraft-go-tracing/wzipkin
+# github.com/pelletier/go-toml v1.7.0
+github.com/pelletier/go-toml
+# github.com/pkg/errors v0.9.1
+github.com/pkg/errors
+# github.com/pmezard/go-difflib v1.0.0
+github.com/pmezard/go-difflib/difflib
+# github.com/satori/go.uuid v1.2.0
+github.com/satori/go.uuid
+# github.com/spf13/afero v1.2.2
+github.com/spf13/afero
+github.com/spf13/afero/mem
+# github.com/spf13/cast v1.3.1
+github.com/spf13/cast
+# github.com/spf13/cobra v1.0.0
+github.com/spf13/cobra
+# github.com/spf13/jwalterweatherman v1.1.0
+github.com/spf13/jwalterweatherman
+# github.com/spf13/pflag v1.0.5
+github.com/spf13/pflag
+# github.com/spf13/viper v1.6.3
+github.com/spf13/viper
+# github.com/stretchr/objx v0.2.0
+github.com/stretchr/objx
+# github.com/stretchr/testify v1.5.1
+github.com/stretchr/testify/assert
+github.com/stretchr/testify/mock
+github.com/stretchr/testify/require
+# github.com/subosito/gotenv v1.2.0
+github.com/subosito/gotenv
+# go.uber.org/atomic v1.6.0
+go.uber.org/atomic
+# go.uber.org/multierr v1.5.0
+go.uber.org/multierr
+# go.uber.org/zap v1.15.0
+go.uber.org/zap
+go.uber.org/zap/buffer
+go.uber.org/zap/internal/bufferpool
+go.uber.org/zap/internal/color
+go.uber.org/zap/internal/exit
+go.uber.org/zap/zapcore
+# golang.org/x/net v0.0.0-20200506145744-7e3656a0809f
+golang.org/x/net/http/httpguts
+golang.org/x/net/http2
+golang.org/x/net/http2/hpack
+golang.org/x/net/idna
+golang.org/x/net/internal/socks
+golang.org/x/net/proxy
+# golang.org/x/sys v0.0.0-20200501145240-bc7a7d42d5c3
+golang.org/x/sys/internal/unsafeheader
+golang.org/x/sys/unix
+# golang.org/x/text v0.3.2
+golang.org/x/text/secure/bidirule
+golang.org/x/text/transform
+golang.org/x/text/unicode/bidi
+golang.org/x/text/unicode/norm
+# gopkg.in/ini.v1 v1.55.0
+gopkg.in/ini.v1
+# gopkg.in/natefinch/lumberjack.v2 v2.0.0
+gopkg.in/natefinch/lumberjack.v2
+# gopkg.in/yaml.v2 v2.2.8
+gopkg.in/yaml.v2

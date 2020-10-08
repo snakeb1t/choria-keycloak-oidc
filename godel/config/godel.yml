@@ -1,0 +1,26 @@
+tasks-config-providers:
+  resolvers:
+    - https://publish.artifactory.palantir.build/artifactory/internal-dist-release/{{GroupPath}}/{{Product}}/{{Version}}/{{Product}}-{{Version}}.yml
+  providers:
+    - locator:
+        id: com.palantir.di-godel-config:di-godel-config-mod:2.17.2
+plugins:
+  resolvers:
+    - https://artifactory.palantir.build/artifactory/internal-dist/{{GroupPath}}/{{Product}}/{{Version}}/{{Product}}-{{Version}}-{{OS}}-{{Arch}}.tgz
+  plugins:
+    - locator:
+        id: com.palantir.deployability:godel-mockery-plugin:0.4.2
+environment:
+  GO111MODULE: 'on'
+  GOFLAGS: -mod=vendor
+  GOPRIVATE: github.palantir.build/*,github.com/palantir/go-palantir
+  GOPROXY: https://gomod.palantir.build
+  GONOPROXY: none
+exclude:
+  names:
+    - \..+
+    - vendor
+  paths:
+    - godel
+    - conjure/choriakeycloakoidc
+    - mocks

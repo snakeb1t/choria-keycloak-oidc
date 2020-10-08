@@ -1,0 +1,45 @@
+default_conf:
+  install:
+    server:
+      address: ""
+      port: 8443
+      management-port: 8444
+      context-path: "/choria-keycloak-oidc"
+      cert-file: "{{ssl.cert_path}}"
+      key-file: "{{ssl.pem_path}}"
+      client-ca-files:
+        - "{{ssl.ca_path}}"
+  runtime:
+    echo-count: 3
+    string-op: reverse
+    logging:
+      level: info
+
+discovery:
+  version: 2
+  consumes: {}
+  produces: {}
+
+endpoints:
+  sls-status-endpoint: status-endpoint
+  definitions:
+    api-endpoint:
+      desired-port: "{{conf.install.server.port}}"
+      path: "{{conf.install.server.context-path}}"
+    status-endpoint:
+      desired-port: "{{conf.install.server.management-port}}"
+      path: "{{conf.install.server.context-path}}"
+
+managed_files:
+  var/conf/install.yml:
+    content: install
+    type: yaml
+  var/conf/runtime.yml:
+    content: runtime
+    live-reload: auto
+    type: yaml
+
+generated_secrets:
+  health-check-shared-secret:
+    secret-type: random_string
+    length: 16
